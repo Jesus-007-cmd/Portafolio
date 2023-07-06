@@ -1,0 +1,10 @@
+.btn_ver{
+    background-color:#e31f2e  !important;
+    color: white !important;
+    border-color: red !important;
+    font-size: 20px !important;
+    align-items: center !important;
+    font-family: 'Oswald', sans-serif !important;
+    /* arriba | derecha | abajo | izquierda */
+    padding: 0 8px  0 8px;
+}

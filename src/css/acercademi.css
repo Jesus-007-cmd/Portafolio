@@ -1,0 +1,57 @@
+.todomi{
+    background: linear-gradient(176deg, rgb(197, 197, 197) 0%, rgba(148, 148, 148, 0.365) 50%, rgba(242, 241, 241, 0.019) 100%);
+}
+.format_imge{
+    height: 95%;
+    width:  95%;
+    border-radius: 3%;
+    margin-right: 50px;
+}
+.Textotitulo{
+    font-size: 45px;
+    color: black;
+    padding: 50px;
+}
+.textonormal{
+    font-size: 20px;
+    padding: 0 50px 0 50px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.division{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media only screen and (max-width:1250px){
+    .division{
+        display: flex;
+        flex-direction: column;
+    }
+    .format_imge{
+        height: 75%;
+        width:  75%;
+        border-radius: 3%;
+        margin-right: 50px;
+        margin-left: 50px;
+
+    }
+    .textonormal{
+       margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:1150px){
+
+}
+@media only screen and (max-width:1050px){
+
+}
+@media only screen and (max-width:1050px){
+
+}
+@media only screen and (max-width:800px){
+
+}
+@media only screen and (max-width:700px){
+
+}

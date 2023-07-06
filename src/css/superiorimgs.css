@@ -1,0 +1,43 @@
+.imagenconfig{
+    width: 100vw;
+    height: 15vh;
+    
+   
+    align-items: center;
+    justify-content: center;
+    background: url('../imgs/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    
+    display: flex;
+    
+
+}
+
+
+  .header-texto{
+    font-size: 52px;
+    margin-left: 50px;
+    
+    color: white;
+      
+    text-align: center;
+    
+   
+}
+
+@media only screen and (max-width:860px){
+
+  .header-texto{
+    font-size: 40px;
+    margin-left: 50px;
+    
+    color: white;
+      
+    text-align: center;
+    
+   
+}
+}

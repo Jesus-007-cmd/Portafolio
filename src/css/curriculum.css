@@ -1,0 +1,56 @@
+.todo{
+  
+    text-decoration: none !important;
+    color: black !important;
+}
+.format_img{
+    height: 50%;
+    width: 50%;
+    border-radius: 3%;
+}
+.Textotit{
+    font-size: 45px;
+      color: gray;
+}
+.textnormal{
+    font-size: 20px;
+
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+.Contenedor {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  li{
+    list-style: none;
+  }
+  .letra{
+    font-family: Verdana;
+    
+  }
+ .margen{
+    /* arriba | derecha | abajo | izquierda */
+padding: 0px 80px 0 80px;
+    text-align: justify;
+ }
+ table, th, td{
+    border: 1px solid black;
+
+    }
+th{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-style:normal !important;
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+td{
+    font-size: 17px;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.simple-linear { background: linear-gradient(rgb(215, 217, 217), rgb(111, 111, 111)); }
